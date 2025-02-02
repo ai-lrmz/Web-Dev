@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>instagram</title>
+  <style>
+    body{
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    #image{
+      float: left;
+      margin-left: 365px;
+      margin-top: 30px;
+      margin-right: 10px;
+    }
+    #input{
+      float: right;
+      border: 1px solid #DBDBDB;
+      margin-top: 25px;
+      margin-right: 365px;
+      padding-top: 50px;
+      padding-left: 45px;
+      padding-right: 45px;
+    }
+    #p1{
+      float: right;
+      margin-right: 364px;
+      border: 1px solid #DBDBDB;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 40px;
+      padding-right: 40px;
+      margin-top: 10px;
+      font-size: smaller;
+      font-weight: 600;
+    }
+    #reg{
+      text-decoration: none;
+      color:#0095F6;
+    }
+    #p2{
+      float:right;
+      margin-right: 470px;
+      font-size: smaller;
+      font-weight: 600;
+      margin-top: 10px;
+    }
+    input{
+      width: 260px;
+      height: 35px;
+      margin-bottom: 7px;
+      border: 1px solid #DBDBDB;
+      border-radius: 3px;
+      background-color: #f6f6f6;
+    }
+    input::placeholder{
+      color: #8E8E8E;
+      font-size: smaller;
+      padding-left: 7px;
+    }
+    input:focus{
+      border:1px solid #012842;
+    }
+    button{
+      width: 269px;
+      background-color: #0094f6ae;
+      border: 0px solid #0095F6;
+      margin-top: 10px;
+      height: 35px;
+      color: white;
+      border-radius: 7px;
+      font-weight: bolder;
+    }
+    #play{
+      position: absolute;
+      left: 815px;
+      top: 610px;
+    }
+    #micro{
+      position: absolute;
+      left: 970px;
+      top: 620px;
+    }
+    #bottom{
+      text-align: center;
+      margin-top: 670px;
+    }
+    .bott:hover{
+      text-decoration: underline;
+    }
+    .bott{
+      text-decoration: none;
+      color:#8E8E8E;
+      padding-inline: 6px;
+      font-size: smaller;
+    }
+    select{
+      float: left;
+      margin-left: 40%;
+      border: none;
+    }
+    select:optional{
+      color:#8E8E8E;
+      font-size: smaller;
+      margin-right:10px;
+    }
+    #facebook{
+      text-decoration: none;
+      color: #0095F6;
+      text-align: center;
+      font-weight: 600;
+      font-size: smaller;
+    }
+    #facebook:hover{
+      color:#012842;
+    }
+    #forgot{
+      text-decoration: none;
+      color:#012842;
+      font-size: smaller;
+      margin-left: 85px;
+      padding-top: 40px;
+    }
+    #insta{
+      padding-left: 37px;
+      padding-bottom: 25px;
+    }
+    #ili{
+      text-align: center;
+      font-weight: 400;
+      font-size: 1.1em;
+      color: #8E8E8E;
+    }
+    #f{
+      margin-left: 35px;
+    }
+    #last{
+      color:#8E8E8E;
+      font-size: smaller;
+    }
+  </style>
+</head>
+<body>
+<img src="https://github.com/jatin4rya/V8-Instagram-Login-Clone/blob/main/IG.jpeg?raw=true" width="380px" id="image"><br>
+
+<div id="input">
+  <img src="https://github.com/jatin4rya/V8-Instagram-Login-Clone/blob/main/instaLogo.png?raw=true" width="180px" id="insta"><br>
+  <input type="text" placeholder="Телефон, имя пользователя или эл. адрес"><br>
+  <input type="password" placeholder="Пароль"><br>
+  <button>Войти</button><br>
+  <p id="ili">или</p>
+  <div id="f">
+    <img id="face" src="https://www.pngarts.com/files/10/Facebook-Logo-PNG-Pic.png" width="30px">
+    <a id="facebook" href="https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Foidc%2F%3Fapp_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignupviafb%252F%26response_type%3Dcode%26scope%3Dopenid%2Bemail%2Bprofile%2Blinking%26state%3DATDbDjVt3QE9PWVfBLylfFj67axbQGql8tVYdpCPQ3LIYDM6lcGL7hdyTyd6FHk59EJtPaGSdrJJm9qop7uJeLRPoDXRS_4VlPgXA53Swkzu-TCEL7CwE7qaiIfEgrkHnWLlYalwVEDdGoSERd8qd9cOhHOW3ReyVsIY8QgEXhkn1V6tmqc0-gAw-o-KqqWS97PGUwqzY_njUfLFN8yaIaUr13USjqXAxAX-ZL8F3JsWKvNA9OozufD5Z3mAV3SO60H_">Войти через Facebook</a><br>
+  </div>
+  <p><a id="forgot" href="https://www.instagram.com/accounts/password/reset/">Забыли пароль?</a></p><br>
+</div>
+<p id="p1">У вас еще нет аккаунта? <a id="reg" href="https://www.instagram.com/accounts/emailsignup/">Зарегистрироваться</a></p>
+<p id="p2">Установите приложение.</p>
+<a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3D9AFCD8B2-B1F8-49EF-8074-725C177ED47F%26utm_campaign%3DunifiedHome%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge">
+  <img id="play" src="https://github.com/jatin4rya/V8-Instagram-Login-Clone/blob/main/playStore.png?raw=true" width="150px"></a>
+<a href="ms-windows-store://pdp/?productid=9nblggh5l9xt&referrer=appbadge&source=www.instagram.com&mode=mini&pos=0%2C0%2C1920%2C1030">
+  <img id="micro" src="https://github.com/jatin4rya/V8-Instagram-Login-Clone/blob/main/getMicrosoft.png?raw=true" width="110px"></a><br>
+<p id="bottom"><a class="bott" href="https://about.meta.com/">Meta</a>
+  <a class="bott" href="https://about.instagram.com/">Информация </a>
+  <a class="bott" href="https://about.instagram.com/blog">Блог</a>
+  <a class="bott" href="https://about.instagram.com/about-us/careers">Вакансии</a>
+  <a class="bott" href="https://help.instagram.com/">Помощь</a>
+  <a class="bott" href="https://developers.facebook.com/docs/instagram-platform">API</a>
+  <a class="bott" href="https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect">Конфиденциальность</a>
+  <a class="bott" href="https://help.instagram.com/581066165581870/">Условия</a>
+  <a class="bott" href="https://www.instagram.com/explore/locations/">Места</a>
+  <a class="bott" href="https://www.instagram.com/web/lite/">Instagram Lite</a>
+  <a class="bott" href="https://www.threads.net/">Threads</a>
+  <a class="bott" href="https://www.facebook.com/help/instagram/261704639352628">Загрузка контактов и лица, не являющиеся пользователями</a>
+  <a class="bott" href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fmeta_verified%2F%3Fentrypoint%3Dweb_footer%26__coig_login%3D1#">Meta Verified</a>
+</p>
+<select>
+  <option>Русский</option>
+  <option>Қазақша</option>
+  <option>English</option>
+</select>
+<p id="last">©2025 Instagram from Meta</p>
+</body>
+</html>
