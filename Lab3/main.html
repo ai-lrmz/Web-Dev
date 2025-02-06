@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do List</title>
+</head>
+<body>
+<h2>To-Do List</h2>
+<input id="taskInput" placeholder="New Task">
+<button onclick="addTask()">Add</button>
+<div id="taskList"></div>
+
+<script>
+    function addTask() {
+        let input = document.getElementById("taskInput");
+        let task = input.value.trim();
+        if (!task) return;
+
+        let div = document.createElement("div");
+        let checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.onchange = () => div.style.textDecoration = checkbox.checked ? "line-through" : "none";
+
+        let text = document.createTextNode(task);
+        let delBtn = document.createElement("button");
+        delBtn.textContent = "Delete";
+        delBtn.onclick = () => div.remove();
+
+        div.append(checkbox, text, delBtn);
+        document.getElementById("taskList").appendChild(div);
+        input.value = "";
+    }
+</script>
+</body>
+</html>
