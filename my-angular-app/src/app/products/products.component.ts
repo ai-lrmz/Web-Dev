@@ -11,74 +11,92 @@ import { CommonModule } from '@angular/common';
 export class ProductsComponent {
   products = [
     {
-      image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h25/h71/49319166038046/smartphone-apple-iphone-14-pro-128gb-fioletovyj-106363874-1.jpg',
-      name: 'Apple iPhone 14 Pro 128GB',
-      description: 'Флагманский смартфон с процессором A16 Bionic и камерой 48 МП',
+      image: 'https://resources.cdn-kaspi.kz/img/m/p/h70/h13/64434418745374.jpg?format=gallery-large',
+      name: 'Смартфон Apple iPhone 14 Pro 128Gb фиолетовый',
+      description: 'iPhone 14 Pro — новинка в мире смартфонов с инновационной системой камер, широким функционалом и большим экраном. Новейший чипсет обеспечивает невероятную производительность гаджета. ',
       rating: 4.9,
-      link: 'https://kaspi.kz/shop/p/apple-iphone-14-pro-128gb-fioletovyi-106363874/'
+      link: 'https://kaspi.kz/shop/p/apple-iphone-14-pro-128gb-fioletovyi-106363283/?c=750000000'
     },
     {
-      image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h72/h78/46684272836638/apple-macbook-air-13-mgn63-seryi-100797845-1-Container.jpg',
-      name: 'Apple MacBook Air 13',
-      description: 'Ноутбук с чипом M1 и батареей на 18 часов работы',
+      image: 'https://resources.cdn-kaspi.kz/img/m/p/h73/h87/63947822596126.jpg?format=gallery-large',
+      name: 'Ноутбук Apple MacBook Air 13 2020 13.3" / 8 Гб / SSD 256 Гб / macOS / MGN63',
+      description: 'Первый чип, разработанный специально для Mac. Поразительно, но система на чипе Apple M1 вмещает 16 миллиардов транзис­торов и объединяет центральный и графи­ческий процессоры, систему Neural Engine, контроллеры ввода-вывода и множество других компонентов',
       rating: 4.8,
-      link: 'https://kaspi.kz/shop/p/apple-macbook-air-13-m1-8-gb-256-gb-ssd-seryi-100797845/'
+      link: 'https://kaspi.kz/shop/p/apple-macbook-air-13-2020-13-3-8-gb-ssd-256-gb-macos-mgn63-100797845/?c=750000000'
     },
     {
-      image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h7e/h58/49287459725342/smart-chasy-apple-watch-series-8-41-mm-cernyj-106362373-1.jpg',
-      name: 'Apple Watch Series 8',
-      description: 'Умные часы с датчиком температуры и функцией ЭКГ',
+      image: 'https://resources.cdn-kaspi.kz/img/m/p/h1b/h98/65099848187934.jpg?format=gallery-large',
+      name: 'Смарт-часы Apple Watch Series 8 41 мм Aluminum черный Midnight',
+      description:'Смарт-часы Apple Watch Series 8 – стильное, многофункциональное и надежное устройство. ',
       rating: 4.7,
-      link: 'https://kaspi.kz/shop/p/apple-watch-series-8-41-mm-chernyi-106362373/'
+      link: 'https://kaspi.kz/shop/p/apple-watch-series-8-41-mm-aluminum-chernyi-midnight-106362810/?c=750000000'
     },
     {
-      image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h99/h39/62861973442526/smartfon-samsung-galaxy-s23-ultra-5g-12-gb-256-gb-cernyj-108756884-1.jpg',
-      name: 'Samsung Galaxy S23 Ultra',
-      description: 'Флагманский смартфон с камерой 200 МП и стилусом S-Pen',
+      image: 'https://resources.cdn-kaspi.kz/img/m/p/h5e/h53/69635680763934.jpg?format=gallery-large',
+      name: 'Смартфон Samsung Galaxy S23 Ultra 12 ГБ/256 ГБ черный',
+      description: 'Samsung Galaxy S23 Ultra — смартфон, у которого есть все шансы стать легендой. Дисплей Dinamyc AMOLED 2X с диагональю 6.8 дюймов воспроизводит четкое и красочное изображение при любом освещении.',
       rating: 4.9,
-      link: 'https://kaspi.kz/shop/p/samsung-galaxy-s23-ultra-12-gb-256-gb-chernyi-108756884/'
+      link: 'https://kaspi.kz/shop/p/samsung-galaxy-s23-ultra-12-gb-256-gb-chernyi-109174566/?c=750000000'
     },
     {
-      image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hcc/h3c/51914364674014/naushniki-apple-airpods-pro-belyj-4802133-1.jpg',
-      name: 'Apple AirPods Pro',
-      description: 'Беспроводные наушники с активным шумоподавлением',
+      image: 'https://resources.cdn-kaspi.kz/img/m/p/ha3/h07/84108189630494.jpg?format=gallery-medium',
+      name: 'Наушники Apple AirPods Pro 2 with Type-C/Wireless Charging белый',
+      description: 'Встроенные аккумуляторы наушников теперь обеспечивают до 6 часов воспроизведения музыки и до 30 часов с подзарядкой в кейсе со включенным активным шумоподавлением. ',
       rating: 4.8,
-      link: 'https://kaspi.kz/shop/p/apple-airpods-pro-belyi-4802133/'
+      link: 'https://kaspi.kz/shop/p/apple-airpods-pro-2-with-type-c-wireless-charging-belyi-113677582/?c=750000000'
     },
     {
-      image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h78/h8b/50128287567902/igrovaya-pristavka-sony-playstation-5-100746552-1.jpg',
-      name: 'Sony PlayStation 5',
+      image: 'https://resources.cdn-kaspi.kz/img/m/p/hf1/h03/84526695677982.jpg?format=gallery-large',
+      name: 'Игровая приставка Sony PlayStation 5 Slim',
       description: 'Игровая консоль нового поколения с мощной графикой',
       rating: 4.9,
-      link: 'https://kaspi.kz/shop/p/sony-playstation-5-100746552/'
+      link: 'https://kaspi.kz/shop/p/sony-playstation-5-slim-114696098/?c=750000000'
     },
     {
-      image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hc7/h1d/61917753860190/monitor-lg-27up850n-w-27-uhd-belyi-107108349-1.jpg',
-      name: 'LG 27UP850N-W 27"',
-      description: 'Монитор 4K UHD с HDR10 и IPS-матрицей',
+      image: 'https://resources.cdn-kaspi.kz/img/m/p/h3d/h52/65069029949470.jpg?format=gallery-large',
+      name: ' Монитор 27" LG 27UP850N-W серебристый',
+      description: 'Дополнительно\n' +
+        'Цветсеребристый\n' +
+        'Регулировка по высотеДа\n' +
+        'Габариты (ШxГxВ)613.5 x 239.3 x 569.3 мм\n' +
+        'Вес5.9 кг',
       rating: 4.7,
-      link: 'https://kaspi.kz/shop/p/lg-27up850n-w-27-107108349/'
+      link: 'https://kaspi.kz/shop/p/27-lg-27up850n-w-serebristyi-107342033/?c=750000000'
     },
     {
-      image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h5b/hf1/48379541573662/tv-lg-55nano866pa-55-139-sm-cernyj-101658267-1.jpg',
-      name: 'LG 55NANO866PA 55"',
-      description: 'Телевизор 4K UHD с технологией NanoCell',
+      image: 'Тhttps://resources.cdn-kaspi.kz/img/m/p/heb/h1d/64533976743966.jpg?format=gallery-large',
+      name: 'Телевизор LG 55NANO806QA 140 см черный',
+      description: 'Звук\n' +
+        'Мощность звука20.0 Вт\n' +
+        'Акустическая система2х10 Вт\n' +
+        'Интерфейсы\n' +
+        'Wi-FiДа\n' +
+        'ВходыHDMI, Ethernet (RJ-45), USB, антенный, Bluetooth\n' +
+        'Выходыаудио, оптический\n' +
+        'Слот для CICI+',
       rating: 4.6,
-      link: 'https://kaspi.kz/shop/p/lg-55nano866pa-55-101658267/'
+      link: 'https://kaspi.kz/shop/p/lg-55nano806qa-140-sm-chernyi-105572526/?c=750000000'
     },
     {
-      image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h2e/hc5/49937770504222/bosch-mfw-45020-6000063-1.jpg',
-      name: 'Bosch MFW 45020',
-      description: 'Мясорубка мощностью 1600 Вт с насадками',
+      image: 'https://resources.cdn-kaspi.kz/img/m/p/h13/h7c/63803223670814.jpg?format=gallery-large',
+      name: 'Мясорубка Bosch MFW 68660 серебристый, черный',
+      description: 'Особенности\n' +
+        'Материал лоткаметалл\n' +
+        'Материал корпусапластик/металл\n' +
+        'Отсек для хранения насадокДа\n' +
+        'Прорезиненные ножкиДа\n' +
+        'Длина сетевого шнура1.2 м\n' +
+        'Отсек для хранения шнураДа\n' +
+        'Дополнительная информацияможно мыть в посудомоечной машине',
       rating: 4.8,
-      link: 'https://kaspi.kz/shop/p/bosch-mfw-45020-6000063/'
+      link: 'https://kaspi.kz/shop/p/bosch-mfw-68660-serebristyi-chernyi-3200533/?c=750000000'
     },
     {
-      image: 'https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h0d/h77/51670718050398/mikrovolnovaya-pech-lg-ms2595gis-100022280-1.jpg',
-      name: 'LG MS2595GIS',
-      description: 'Микроволновая печь с грилем и интеллектуальным управлением',
+      image: 'https://resources.cdn-kaspi.kz/img/m/p/h30/h4e/63767247257630.jpg?format=gallery-large',
+      name: 'Микроволновая печь LG MS2535GIS черный',
+      description: 'Микроволновая печь LG NeoChef c технологией Smart Inverter. Благодаря высокой мощности в 1000 Вт и точности управления продукты размораживаются, подогреваются и готовятся более эффективно, а блюда порадуют вас разнообразием. ',
       rating: 4.7,
-      link: 'https://kaspi.kz/shop/p/lg-ms2595gis-100022280/'
+      link: 'https://kaspi.kz/shop/p/lg-ms2535gis-chernyi-2900577/?c=750000000'
     }
   ];
 
