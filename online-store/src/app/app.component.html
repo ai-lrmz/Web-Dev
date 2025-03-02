@@ -1,0 +1,8 @@
+<body><h1>Kaspi</h1>
+<app-category (categorySelected)="selectCategory($event)"></app-category>
+
+<div *ngIf="selectedCategory">
+  <h2>Категория: {{ selectedCategory.name }}</h2>
+  <app-product-list [category]="selectedCategory"></app-product-list>
+</div>
+</body>

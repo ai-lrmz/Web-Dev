@@ -1,135 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="utf-8">
     <title>Facebook</title>
     <style>
-        body{
+        body {
             background-color: #F0F2F5;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-family: system-ui, 'Segoe UI', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
         }
-        #text{
-            float: left;
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+        }
+        #text {
             font-size: 2em;
-            margin-top: 180px;
-            margin-left: 280px;
-            margin-right: 100px;
-
+            margin-top: 50px;
         }
-        #input{
-            box-shadow: 0px 5px 11px 2px rgba(162,159,159,0.43);
-            -webkit-box-shadow: 0px 5px 11px 2px rgba(162,159,159,0.43);
-            -moz-box-shadow: 0px 5px 11px 2px rgba(162,159,159,0.43);
-            padding: 20px;
+        #input {
+            box-shadow: 0px 5px 11px rgba(162,159,159,0.43);
+            padding: 50px;
             border-radius: 10px;
             background-color: white;
-            float: right;
-            margin-top: 150px;
-            margin-right: 150px;
-            margin-bottom: 20px;
+            text-align: center;
         }
-        #in{
-            width:389px;
-            height: 55px;
-            margin-bottom: 10px;
+        input {
+            width: 100%;
+            height: 50px;
+            margin-bottom: 15px;
             border-radius: 7px;
-            border:2px solid #1877F2;
-            background-color: #1877F2;
-            color: white;
-            font-weight: bold;
-            font-size: 1.5em;
-        }
-        input{
-            width: 380px;
-            height: 55px;
-            margin-bottom: 20px;
-            border-radius: 7px;
-            border:2px solid rgb(229, 230, 232);
+            border: 2px solid #E5E6E8;
             font-size: 1.2em;
             padding-left: 15px;
-
         }
-        input:focus{
-            border:2px solid #1877F2;
-            outline: none;
+        input:focus {
+            border: 2px solid #1877F2;
+            outline: #2E8B57;
         }
-        input::placeholder{
-            color: #a4a4a5;
-        }
-        input:focus::placeholder{
-            color: #c6c6c7;
-        }
-        #forgot{
-            text-decoration: none;
-            margin-left: 130px;
-        }
-        #create{
-            width: 260px;
-            height: 55px;
-            margin-top: 20px;
-            margin-left: 73px;
-            margin-bottom: 10px;
+        a.button {
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding: 15px 0;
             border-radius: 7px;
-            background-color: #42B72A;
             font-weight: bold;
             font-size: 1.2em;
-            border: 2px solid #42B72A;
+            text-decoration: none;
+        }
+        #in {
+            background-color: #1877F2;
             color: white;
+            border: none;
         }
-        #create:hover{
-            background-color: #3ba326;
-            cursor: pointer;
-        }
-        #in:hover{
+        #in:hover {
             background-color: #2580f7;
-            cursor: pointer;
         }
-        h1{
+        #create {
+            background-color: #42B72A;
+            color: white;
+            margin-top: 20px;
+        }
+        #create:hover {
+            background-color: #3ba326;
+        }
+        hr {
+            margin-top: 20px;
+            border: 1px solid rgb(222, 224, 227);
+        }
+        #forgot {
+            text-decoration: none;
             color: #1877F2;
-            margin-bottom: 10px;
-            font-weight: 700;
+            display: block;
+            margin-top: 10px;
         }
-        #bottom{
-            float: right;
+        #bottom {
             text-align: center;
-            margin-left: 780px;
-            margin-right: 150px;
-            font-weight:480;
+            font-weight: 280;
+            margin-top: 20px;
         }
-        #a{
-            font-weight: bolder;
+        #a {
+            font-weight: bold;
             text-decoration: none;
             color: black;
-        }
-        hr{
-            margin-top: 20px;
-            border-top: 1px solid rgb(222, 224, 227);
-        }
-        #b{
-            margin-top: 0px;
-            line-height: 35px;
-            font-weight: 400;
-        }
-        .c{
-            color: white;
-            text-decoration: none;
+            display: inline;
         }
     </style>
 </head>
 <body>
-<div id="text">
-    <h1>facebook</h1>
-    <p id="b">Facebook помогает вам всегда<br> оставаться на связи и общаться со<br> своими знакомыми</p>
+<div class="container">
+    <div id="text">
+        <h1 style="color: #1877F2;">facebook</h1>
+        <p>Facebook помогает вам всегда<br> оставаться на связи и общаться со<br> своими знакомыми</p>
+    </div>
+    <div id="input">
+        <input type="email" placeholder="Электронный адрес или номер телефона"><br>
+        <input type="password" placeholder="Пароль"><br>
+        <a id="in" class="button" href="https://www.facebook.com/">Вход</a>
+        <a id="forgot" href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">
+            Забыли пароль?
+        </a>
+        <hr>
+        <a id="create" class="button" href="https://www.facebook.com/r.php?entry_point=login">Создать новый аккаунт</a>
+        <p id="bottom">
+            <a id="a" href="https://www.facebook.com/pages/create/?ref_type=registration_form">Создать страницу</a>
+            знаменитости, музыкальной группы или компании.
+        </p>
+    </div>
 </div>
-<div id="input">
-    <input type="text" placeholder="Электронный адрес или номер телефона"><br>
-    <input type="password" placeholder="Пароль"><br>
-    <button id="in"><a class="c" href="https://www.facebook.com/">Вход</a></button><br>
-    <a id="forgot" href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">Забыли пароль?</a><br>
-    <hr>
-    <button id="create"><a class="c" href="https://www.facebook.com/r.php?entry_point=login">Создать новый аккаунт</a></button><br>
-</div>
-<p id="bottom"><a id="a" href="https://www.facebook.com/pages/create/?ref_type=registration_form">Создать страницу </a>знаменитости, музыкальной группы или <br> компании</p>
-</body>
 
+</body>
 </html>
