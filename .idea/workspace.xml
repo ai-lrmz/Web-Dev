@@ -5,85 +5,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87e590bc-2da9-448c-826a-a9043cde5f05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lab6/src/app/album.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/app/fake-db.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/app/models.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/assets/albums.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab6/src/assets/photos.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-store/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-store/src/app/category.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-store/src/app/product.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-store/src/app/products/poducts.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-store/src/app/products/products.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-store/src/app/products/products.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/online-store/src/app/products/products.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/facebook.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/facebook.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/instagram.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/instagram.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/microsoft.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/microsoft.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/.vscode/tasks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/src/app/app.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/src/app/app.routes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/src/app/product-item/product-item.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/src/app/product-item/product-item.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/src/app/product-item/product-item.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/src/app/product-item/product-item.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/src/app/product-list/product-list.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/src/app/product-list/product-list.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/src/app/product-list/product-list.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/src/app/product-list/product-list.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/online-store/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/src/app/app.config.serve.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/src/app/app.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/src/app/app.routes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/src/app/data.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/src/app/product-item/product-item.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/src/app/product-item/product-item.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/src/app/product-item/product-item.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/src/app/product-item/product-item.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/src/app/product-list/product-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/src/app/album.service.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/src/app/product-list/product-list.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/src/app/product-list/product-list.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/src/app/product-list/product-list.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/src/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-angular-app/src/app/products/product.model.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-angular-app/src/app/products/product.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-angular-app/src/app/products/products.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-angular-app/src/app/products/products.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-angular-app/src/app/products/products.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-angular-app/src/app/products/products.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-angular-app/src/app/products/products.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-angular-app/src/app/products/products.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/about/about.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/about/about.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/about/about.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/about/about.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/album-detail/album-detail.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/album-detail/album-detail.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/album-detail/album-detail.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/album-detail/album-detail.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/album-photos/album-photos.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/album-photos/album-photos.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/album-photos/album-photos.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/album-photos/album-photos.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/album.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/album.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/albums/albums.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/albums/albums.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/albums/albums.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/albums/albums.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/fake-db.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/home/home.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/home/home.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/home/home.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/home/home.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/app/models.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_back/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_back/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_back/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/shop_back/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_back/shop_back/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shop_back/shop_back/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,24 +83,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/tugur/OneDrive/Рабочий стол/2курс/Web-Dev",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.3.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tugur/OneDrive/Рабочий стол/2курс/Web-Dev&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -171,11 +143,34 @@
       <workItem from="1740574270255" duration="1174000" />
       <workItem from="1740575465024" duration="1394000" />
       <workItem from="1740929543277" duration="4087000" />
+      <workItem from="1741771697376" duration="612000" />
+      <workItem from="1741772316191" duration="145000" />
+      <workItem from="1742353485805" duration="4966000" />
+      <workItem from="1742385378668" duration="1862000" />
+      <workItem from="1742973515988" duration="2094000" />
+      <workItem from="1742975738661" duration="711000" />
+      <workItem from="1742976671070" duration="104000" />
+      <workItem from="1742990155613" duration="3423000" />
+      <workItem from="1743346472902" duration="6223000" />
+      <workItem from="1743512890821" duration="1329000" />
+      <workItem from="1743567013089" duration="4752000" />
+      <workItem from="1743595066439" duration="4294000" />
+      <workItem from="1744106068371" duration="2330000" />
+      <workItem from="1744175270434" duration="3071000" />
+      <workItem from="1744199437090" duration="2399000" />
+      <workItem from="1744542468238" duration="32000" />
+      <workItem from="1744542502121" duration="1627000" />
+      <workItem from="1744544981792" duration="1583000" />
+      <workItem from="1744546580516" duration="1529000" />
+      <workItem from="1744551275045" duration="4078000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -188,7 +183,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/lab6/src/app/fake-db.ts</url>
           <line>3</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
